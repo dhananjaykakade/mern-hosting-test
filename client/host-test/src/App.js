@@ -1,6 +1,6 @@
 
 import './App.css';
-fetch('http://localhost:7001/api/data', {
+fetch('https://mern-hosting-test-api.vercel.app/api/data', {
   method: 'GET',
   headers: {
     'Content-Type': 'application/json',
